@@ -70,7 +70,7 @@ set(COMPONENT_ADD_INCLUDEDIRS
 # !!! Zorg ervoor dat je onderstaand ALLEEN de juiste KlikAanKlikUit  !!!
 # !!! variant uitcommentarieert.                                      !!!
 #"../apps/KlikAanKlikUit_zonder_LP"
-"../apps/KlikAanKlikUit_zonder_knopTask"
+#"../apps/KlikAanKlikUit_zonder_knopTask"
 #"../apps/KlikAanKlikUit_zonder_knopTask_compact"
 
 # TFT_.. some incompatible stuff, it seems, for esp32-c6

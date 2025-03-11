@@ -14,8 +14,8 @@
 #include <Arduino.h>
 
 // Voorbeeld van een kopie van een voorbeeld uit de ESP-IDF
-//#define CONFIG_EXAMPLE_SCAN_LIST_SIZE 20  // Dit blijkt nodig voor kopie_van_scan_example
-//#include <kopie_van_scan_example.h>
+#define CONFIG_EXAMPLE_SCAN_LIST_SIZE 20  // Dit blijkt nodig voor kopie_van_scan_example
+#include <kopie_van_scan_example.h>
 
 // Selecteer onderstaand de .ino van je applicatie
 // **** CleanRTOS Core Tests ****
@@ -51,10 +51,10 @@
 //void touch_calibrate();
 
 // **** Simplified code for students to improve on ****
-// Let op: comment in CMakeList.txt alleen de bijbehorende folder uit!
-// (omdat de verschillende KlikAanKlikUit voorbeelden dezelfde bestandsnamen hebben)
+// !!! Let op: comment in CMakeList.txt alleen de bijbehorende folder uit               !!!
+// !!! (omdat de verschillende KlikAanKlikUit voorbeelden dezelfde bestandsnamen hebben)!!!
 //#include <KlikAanKlikUit_zonder_LP.ino>
-#include <KlikAanKlikUit_zonder_knopTask.ino>
+//#include <KlikAanKlikUit_zonder_knopTask.ino>
 //#include <KlikAanKlikUit_zonder_knopTask_compact.ino>
 
 // **** Arduino IDE Examples ****
