@@ -51,7 +51,11 @@
 //void touch_calibrate();
 
 // **** Simplified code for students to improve on ****
-#include <KlikAanKlikUit_zonder_LP.ino>
+// Let op: comment in CMakeList.txt alleen de bijbehorende folder uit!
+// (omdat de verschillende KlikAanKlikUit voorbeelden dezelfde bestandsnamen hebben)
+//#include <KlikAanKlikUit_zonder_LP.ino>
+#include <KlikAanKlikUit_zonder_knopTask.ino>
+//#include <KlikAanKlikUit_zonder_knopTask_compact.ino>
 
 // **** Arduino IDE Examples ****
 //#include <AnalogRead.ino>

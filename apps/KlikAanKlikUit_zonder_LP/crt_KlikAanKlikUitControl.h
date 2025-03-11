@@ -28,10 +28,10 @@ namespace crt
 		/*override keyword not supported*/
 		void main()
 		{
+			vTaskDelay(1000); // good practice: wait for other threads to have started up as well.
+
 			enum State { UIT, AAN };
 			State state = UIT;
-
-			vTaskDelay(1000); // good practice: wait for other threads to have started up as well.
 
 			while (true)
 			{
