@@ -64,6 +64,8 @@ set(COMPONENT_ADD_INCLUDEDIRS
 "../libs/hx711/src"
 "../libs/hx711/tests"
 
+"../apps/KlikAanKlikUit_zonder_LP"
+
 # TFT_.. some incompatible stuff, it seems, for esp32-c6
 # "../libs/TFT_eSPI"
 # "../libs/TFT_eSPI/TFT_Drivers"

@@ -14,8 +14,8 @@
 #include <Arduino.h>
 
 // Voorbeeld van een kopie van een voorbeeld uit de ESP-IDF
-#define CONFIG_EXAMPLE_SCAN_LIST_SIZE 20  // Dit blijkt nodig voor kopie_van_scan_example
-#include <kopie_van_scan_example.h>
+//#define CONFIG_EXAMPLE_SCAN_LIST_SIZE 20  // Dit blijkt nodig voor kopie_van_scan_example
+//#include <kopie_van_scan_example.h>
 
 // Selecteer onderstaand de .ino van je applicatie
 // **** CleanRTOS Core Tests ****
@@ -49,6 +49,9 @@
 // **** Test of thirdparty libs CleanGUI depends on ****
 //#include <LITTLEFS_test.ino>
 //void touch_calibrate();
+
+// **** Simplified code for students to improve on ****
+#include <KlikAanKlikUit_zonder_LP.ino>
 
 // **** Arduino IDE Examples ****
 //#include <AnalogRead.ino>
